@@ -1,12 +1,17 @@
-<bod>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Django based Integer to Roman Converter">
+<meta name="author" content="Marshall Roach">
+</head>
 
+<body>
     <form action="." method="post">
         {% csrf_token %}
         {{ form }}
 
-        <input type="submit" value="OK">
+        <input type="submit" value="Submit">
 
         <p>result: {{result }}</p>
     </form>
 
-</bod>
+</body>

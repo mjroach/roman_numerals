@@ -22,6 +22,7 @@ def int_to_roman(value):
                     (10, 'X'),
                     (9, 'IX'),
                     (5, 'V'),
+                    (4, 'IV'),
                     (1, 'I')]
 
     while value != 0:
