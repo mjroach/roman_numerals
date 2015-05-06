@@ -2,11 +2,11 @@ import sys
 
 
 def int_to_roman(value):
-    ##make sure the input is an int
+    #make sure the input is an int
     if type(value) != int:
-        raise Exception('Input value is not an interger')
+        raise Exception('Input value is not an integer')
 
-    ##make sure nothing bad is passed to the function
+    #make sure nothing bad is passed to the function
     if value < 1 or value > 3999:
         raise Exception('input is out of Range 1-3999')
 
